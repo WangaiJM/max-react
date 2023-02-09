@@ -1,7 +1,13 @@
+import Todo from "./components/Todo";
 
 function App() {
   return (
-   <h1>Hello</h1>
+    <div>
+      <h1>My todos</h1>
+      <Todo text="Learn React" />
+      <Todo text="Explore the power of react" />
+      <Todo text="Integrate to django" />
+    </div>
   );
 }
 
